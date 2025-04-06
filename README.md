@@ -3,6 +3,16 @@
 A web-based CPU Scheduling Simulator built using HTML, CSS, and JavaScript. It helps visualize and understand various CPU scheduling algorithms using Gantt charts and performance metrics like waiting time and turnaround time.
 
 ---
+## 🎯 Purpose of the Project
+
+This simulator is designed to help:
+
+- 📚 Students understand CPU scheduling visually
+- 👨‍🏫 Teachers demonstrate algorithms interactively
+- 💻 Developers prototype scheduling logic
+- 📊 Users compare the efficiency of different algorithms
+
+---
 
 ## 🚀 Features
 
