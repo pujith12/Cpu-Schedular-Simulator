@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CPU Scheduler Simulator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>CPU Scheduler Simulator</h1>
+
+    <form id="process-form">
+      <input type="text" id="pid" placeholder="Process ID" required />
+      <input type="number" id="arrival" placeholder="Arrival Time" required />
+      <input type="number" id="burst" placeholder="Burst Time" required />
+      <input type="number" id="priority" placeholder="Priority (for Priority Scheduling)" />
+      <button type="submit">Add Process</button>
+    </form>
+
+    <div>
+      <label>Choose Algorithm:</label>
+      <select id="algorithm">
+        <option value="fcfs">FCFS</option>
+        <option value="sjf">SJF (Non-preemptive)</option>
+        <option value="priority">Priority (Non-preemptive)</option>
+        <option value="rr">Round Robin</option>
+      </select>
+      <input type="number" id="quantum" placeholder="Quantum (for RR)" style="display: none;" />
+    </div>
+
+    <button id="simulate">Simulate</button>
+    <button id="reset">Reset</button>
+
+    <h2>Processes</h2>
+    <ul id="process-list"></ul>
+
+    <h2>Output</h2>
+    <div id="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
