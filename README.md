@@ -25,8 +25,6 @@ A web-based CPU Scheduling Simulator built using HTML, CSS, and JavaScript. It h
 - **Frontend:** HTML5, CSS3, Vanilla JavaScript
 - **No frameworks** or libraries used
 
----
-
-## 📂 Project Structure
+--
 
 
