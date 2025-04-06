@@ -16,7 +16,7 @@ A web-based CPU Scheduling Simulator built using HTML, CSS, and JavaScript. It h
 - ⏱️ Calculates and displays:
   - Average Waiting Time (WT)
   - Average Turnaround Time (TAT)
-- 🎨 Clean UI with smooth transitions and effects
+- 🎨 Clean UI with smooth transitions and effects.
 
 ---
 
